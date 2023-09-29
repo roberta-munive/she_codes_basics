@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Homework</title>
+    <style>
+
+        button{
+            background-color: #1a64d6;
+            border: 1px solid #1a64d6;
+            border-radius: 30px;
+            box-shadow: 5px 7px 5px rgba(109, 108, 109, 1);
+            color: white;
+            display: block;
+            font-size: 16px;
+            margin: 25px auto 30px auto;
+            padding: 15px;
+            transition: all 150ms ease-in-out;
+        }
+
+        button:hover{
+            color: #1a64d6;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        h1, h2, h3{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            text-align: center;
+
+        }
+
+        h1{
+            color: #1a64d6; 
+            font-size: 34px;
+            line-height: 48px;
+            
+        }
+
+        h2{
+            font-size: 34px;
+            font-weight: normal;
+        }
+        
+        /* to put different icons in unordered list https://www.freecodecamp.org/news/html-bullet-points-how-to-create-an-unordered-list-with-the-ul-tag-example/ */
+
+
+        li{
+            border-radius: 10px;
+            display: list-item;
+            margin: auto;
+            padding: 10px 0;
+            max-width: 400px;
+            transition: all 150ms ease-in-out;
+        }
+
+        li:hover{
+            background-color: #fffbef;
+        }
+
+        ul{
+            list-style-position: outside;
+            list-style-type:none;
+            margin: 0;
+            padding:0;
+            text-align: center;
+        }
+
+        .coded-by{
+            font-family:'Courier New', Courier, monospace;
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.7;
+            text-align: center;
+        }
+
+        .header-emoji{
+            font-size: x-large;
+            text-align: center;
+        }
+
+        .list-row-1{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 30px;
+        }
+
+        .list-row-2{
+            
+            opacity: 0.7;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* on hover background color is #fffbef */
+        /* putting color in background of lists https://www.w3schools.com/css/css_list.asp */
+    </style>
+</head>
+<body>
+    <p class="header-emoji">🌤️</p>
+    <h1>Currently 21&deg; in Tokyo</h1>
+    <h2>13&deg; / <strong>23&deg;</strong></h2>
+    <ul>
+        <li>
+            <h3 class="list-row-1">🌧️ Tomorrow</h3>
+            <p class="list-row-2">10° / <strong>22°</strong></p>
+        </li>
+        <li>
+            <h3 class="list-row-1">⛅ Saturday</h3>
+            <p class="list-row-2">15&deg; / <strong>17&deg;</strong></p>
+        </li>
+        <li>
+            <h3 class="list-row-1">☀️ Sunday</h3>
+            <p class="list-row-2">25&deg; / <strong>28&deg;</strong></p>
+            
+        </li>
+    </ul>
+
+    <button type="button">Change city</button>
+    <p class="coded-by">Coded by Roberta</p>
+
+    
+</body>
+</html>
